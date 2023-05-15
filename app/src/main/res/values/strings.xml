@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="some_id">Пропустить</string>
+    <string name="some_id1">Пропустить</string>
+    <string name="some_id2">Завершить</string>
+</resources>
