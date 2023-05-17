@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class opening extends Activity {
+public class opening extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
