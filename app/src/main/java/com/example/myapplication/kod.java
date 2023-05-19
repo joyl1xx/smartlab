@@ -14,7 +14,7 @@ public class kod extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.kod);
-        ImageButton back = findViewById(R.id.imageView22);
+        ImageButton back = findViewById(R.id.button_back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

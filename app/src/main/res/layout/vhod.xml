@@ -5,39 +5,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
         app:srcCompat="@drawable/dp" />
 
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.394"
+        android:layout_marginLeft="-330dp"
+        android:layout_marginTop="200dp"
         app:srcCompat="@drawable/email" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="48dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:background="@drawable/ugly"
-        android:text="  example@mail.ru"
         android:textColor="@color/grey"
+        android:hint="  example@mail.ru"
+        android:layout_marginLeft="-95dp"
+        android:layout_marginTop="215dp"
         android:inputType="textEmailAddress"
         android:ems="20"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,9 +49,11 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="350dp"
+        android:layout_width="380dp"
         android:layout_height="60dp"
         android:text="Далее"
+        android:layout_marginLeft="-378dp"
+        android:layout_marginTop="280dp"
         android:backgroundTint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,8 +64,10 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="480dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -77,6 +81,8 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:text="Войти с яндекс"
+        android:layout_marginLeft="-250dp"
+        android:layout_marginTop="520dp"
         android:backgroundTint="@color/dark_grey"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -85,5 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.945" />
+
+    </LinearLayout>
 
 </LinearLayout>

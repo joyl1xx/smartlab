@@ -6,3 +6,62 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/some_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/some_id2"
+        android:textAppearance="@style/some_id2"
+        android:gravity="top" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/shape" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-265dp"
+            android:layout_marginTop="210dp"
+            app:srcCompat="@drawable/mon" />
+
+        <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="58dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="-87dp"
+        android:layout_marginTop="282dp"
+        app:srcCompat="@drawable/group_2__2_" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="330dp"
+        app:srcCompat="@drawable/kratinka" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-299dp"
+        android:layout_marginTop="240dp"
+        app:srcCompat="@drawable/text" />
+
+</LinearLayout>
+
+</LinearLayout>
