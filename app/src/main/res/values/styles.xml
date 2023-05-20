@@ -15,4 +15,9 @@
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">#57A9FF</item>
     </style>
+
+    <style name="some_id4">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#57A9FF</item>
+    </style>
 </resources>
