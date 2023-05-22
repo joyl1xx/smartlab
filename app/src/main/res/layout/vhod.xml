@@ -27,28 +27,20 @@
         app:srcCompat="@drawable/email" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editText12"
         android:layout_width="380dp"
         android:layout_height="48dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
         android:background="@drawable/ugly"
         android:textColor="@color/grey"
-        android:hint="  example@mail.ru"
+        android:hint="example@mail.ru"
+        android:padding="15dp"
         android:layout_marginLeft="-95dp"
         android:layout_marginTop="215dp"
         android:inputType="textEmailAddress"
-        android:ems="20"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.46" />
+        android:ems="20" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button213"
         android:layout_width="380dp"
         android:layout_height="60dp"
         android:text="Далее"
