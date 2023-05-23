@@ -155,6 +155,7 @@
         android:layout_height="15dp"
         android:layout_marginLeft="-85dp"
         android:layout_marginTop="180dp"
+        android:background="@drawable/oval_grey"
         app:srcCompat="@drawable/ellipse_58" />
 
     <ImageView
@@ -163,6 +164,7 @@
         android:layout_height="15dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="180dp"
+        android:background="@drawable/oval_grey"
         app:srcCompat="@drawable/ellipse_58" />
 
     <ImageView
@@ -171,6 +173,7 @@
         android:layout_height="15dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="180dp"
+        android:background="@drawable/oval_grey"
         app:srcCompat="@drawable/ellipse_58" />
 
     <ImageView
@@ -179,6 +182,7 @@
         android:layout_height="15dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="180dp"
+        android:background="@drawable/oval_grey"
         app:srcCompat="@drawable/ellipse_58" />
  </LinearLayout>
 </LinearLayout>

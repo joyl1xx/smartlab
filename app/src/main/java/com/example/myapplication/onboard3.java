@@ -23,6 +23,5 @@ public class onboard3 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }
