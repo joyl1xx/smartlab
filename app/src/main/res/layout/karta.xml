@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -21,7 +22,71 @@
             android:textColor="@color/black"
             android:textAppearance="@style/some_id"
             android:lineSpacingExtra="-1sp"
-            android:gravity="top"
-            />
+            android:gravity="top" />
+
+        <TextView
+            android:id="@+id/some_id3"
+            android:layout_width="100dp"
+            android:textSize="17dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="20dp"
+            android:text="@string/some_id3"
+            android:textAppearance="@style/some_id"
+            android:lineSpacingExtra="2sp"
+            android:translationY="-1.05sp"
+            android:gravity="right|top" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="335dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-370dp"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/bez_karty" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="-335dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/v_kartah" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ugly"
+            android:textColor="@color/grey"
+            android:hint="Имя"
+            android:padding="15dp"
+            android:layout_marginLeft="-350dp"
+            android:layout_marginTop="215dp"
+            android:ems="20" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ugly"
+            android:textColor="@color/grey"
+            android:hint="Отчество"
+            android:padding="15dp"
+            android:layout_marginLeft="-380dp"
+            android:layout_marginTop="280dp"
+            android:ems="20" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ugly"
+            android:textColor="@color/grey"
+            android:hint="Фамилия"
+            android:padding="15dp"
+            android:layout_marginLeft="-380dp"
+            android:layout_marginTop="345dp"
+            android:ems="20" />
     </LinearLayout>
 </LinearLayout>
