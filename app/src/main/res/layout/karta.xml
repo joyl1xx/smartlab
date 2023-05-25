@@ -88,5 +88,49 @@
             android:layout_marginLeft="-380dp"
             android:layout_marginTop="345dp"
             android:ems="20" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ugly"
+            android:textColor="@color/grey"
+            android:hint="Дата рождения"
+            android:padding="15dp"
+            android:layout_marginLeft="-380dp"
+            android:layout_marginTop="410dp"
+            android:ems="20" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-400dp"
+        android:layout_marginTop="475dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ugly">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:background="@drawable/ugly"
+            android:entries="@array/Female"
+            android:padding="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ugly"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="-400dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:background="@drawable/ugly"
+        android:text="Создать" />
 </LinearLayout>
