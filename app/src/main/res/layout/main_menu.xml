@@ -13,7 +13,6 @@
             android:layout_height="48dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
-            android
             android:hint="Искать анализы"
             android:background="@drawable/ugly" />
 
