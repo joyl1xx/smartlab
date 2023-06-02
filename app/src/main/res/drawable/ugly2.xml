@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector
+<shape
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt"
+    android:shape="rectangle"
     android:width="335dp"
     android:height="48dp"
     android:viewportWidth="335"
@@ -20,4 +21,8 @@
             android:strokeColor="#EBEBEB"
             />
     </group>
-</vector>
+    <solid android:color="@color/white_grey" />
+    <stroke android:width="1dip" android:color="@color/blue"/>
+
+</shape>
+

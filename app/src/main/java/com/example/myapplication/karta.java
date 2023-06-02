@@ -16,7 +16,7 @@ public class karta extends AppCompatActivity {
         complete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(karta.this, vhod.class);
+                Intent intent = new Intent(karta.this, mainmenu.class);
                 startActivity(intent);
             }
         });

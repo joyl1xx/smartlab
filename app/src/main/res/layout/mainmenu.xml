@@ -22,6 +22,14 @@
             android:layout_gravity="center"
             android:src="@drawable/icons"/>
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/palka"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="-5dp"/>
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
